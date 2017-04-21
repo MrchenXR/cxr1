@@ -1,0 +1,273 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>CSS练习</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /*font-size: 100%;*/
+            /*line-height: 1;*/
+        }
+
+        body {
+            background-color: #DEDEDE;
+        }
+
+        header,
+        footer {
+            height: 100px;
+            width: 100%;
+        }
+
+        header {
+            background-color: #333333;
+            position: relative;
+        }
+
+        footer {
+            background-color: #93cf98;
+            color: #FFFFFF;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .logo {
+            height: 60px;
+            width: auto;
+            float: left;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 20px;
+        }
+
+        .logo img {
+            height: inherit;
+        }
+
+        nav {
+            text-align: right;
+            width: 200px;
+            height: 25px;
+            line-height: 25px;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 20px;
+        }
+
+        nav a {
+            /*链接去下划线*/
+            text-decoration: none;
+            color: #FFFFFF;
+            font-family: Monaco;
+        }
+
+        nav a:hover {
+            /*链接去下划线*/
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: #DEDEDE;
+            display: table;
+            max-width: 1280px;
+            /*overflow: hidden;*/
+            padding: 10px;
+            margin: 0 auto;
+            /*margin: 10px;*/
+            /**zoom: 1;*/
+        }
+
+        article,
+        aside {
+            display: table-cell;
+            /*padding: 20px;*/
+        }
+
+        aside {
+            /*border: 1px solid #cbcbcb;*/
+            width: 400px;
+            /*height: inherit;*/
+        }
+
+        article {
+            /*height: 100px;*/
+        }
+
+        .article-content {}
+
+        .aside-content {
+            background-color: #FFFFFF;
+            box-shadow: 1px 1px 1px #000000;
+            border: 1px solid #cbcbcb;
+            margin: 10px;
+            /*padding: 20px;*/
+        }
+
+        .article-main {
+            background-color: #FFFFFF;
+            box-shadow: 1px 1px 1px #000000;
+            border: 1px solid #cbcbcb;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            /*white-space: normal;*/
+        }
+
+        .article-main .article-img {
+            margin: 0 auto;
+        }
+
+        .article-main .article-img img {
+            margin: 3px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .aside-main {
+            padding: 20px;
+        }
+
+        .aside-title {
+            padding: 20px;
+            text-align: center;
+        }
+
+        table .tips {
+            color: #cdcdcd;
+            font-size: 70%;
+        }
+
+        table {
+            font-size: 80%;
+        }
+
+        table .table-one {
+            text-align: right;
+        }
+
+        .btn {
+            border: none;
+            border-radius: 10px;
+            background-color: #3355d0;
+            color: #FFFFFF;
+            font-size: 110%;
+            font-weight: bold;
+            line-height: 40px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="logo">
+        <img src="下载.jpg" height="98px">
+    </div>
+    <nav>
+        <a href="index.html">友情链接</a>
+        <a href="day02.html">友情链接2</a>
+        <a href="day03.html">友情链接3</a>
+    </nav>
+</header>
+<section>
+    <article>
+        <div class="article-content">
+            <div class="article-main">
+                这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。
+                这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。
+            </div>
+            <div class="article-main">
+                这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。
+                这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。 这里有很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的段落。
+            </div>
+            <div class="article-main">
+                <div class="article-img">
+                    <img src="4431.jpg" width="140px">
+                    <img src="4431.jpg" width="140px">
+                    <img src="4431.jpg" width="140px">
+                    <img src="4431.jpg" width="140px">
+                    <img src="4431.jpg" width="140px">
+                    <img src="4431.jpg" width="140px">
+                    <img src="4431.jpg" width="140px">
+                    <img src="4431.jpg" width="140px">
+                    <img src="4431.jpg" width="140px">
+                    <img src="4431.jpg" width="140px">
+                </div>
+            </div>
+        </div>
+    </article>
+    <aside>
+        <div class="aside-content">
+            <div class="aside-title">
+                这里以后是一个侧栏，这是侧栏的标题
+            </div>
+            <hr>
+            <div class="aside-main">
+                <form>
+                    <table border="0" cellspacing="10">
+                        <tbody><tr>
+                            <td class="table-one">请输入邮箱地址</td>
+                            <td><input type="text" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="tips">邮箱地址请按要求格式输入</td>
+                        </tr>
+                        <tr>
+                            <td class="table-one">请输入密码</td>
+                            <td><input type="password" name="psw"></td>
+                        </tr>
+                        <tr>
+                            <td class="table-one">请重复输入密码</td>
+                            <td><input type="password" name="psw_again"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="tips">密码请为6-16的英文数字</td>
+                        </tr>
+                        <tr>
+                            <td class="table-one">性别</td>
+                            <td>
+                                <input type="radio" checked="checked" name="Sex" value="male">男
+                                <input type="radio" name="Sex" value="female">女
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-one">城市</td>
+                            <td>
+                                <select>
+                                    <option value="beijing">北京</option>
+                                    <option value="shanghai">上海</option>
+                                    <option value="guangzhou">广州</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-one">爱好</td>
+                            <td>
+                                <input type="checkbox" name="hobby" value="运动">运动
+                                <input type="checkbox" name="hobby" value="艺术">艺术
+                                <input type="checkbox" name="hobby" value="科学">科学
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table-one">个人描述</td>
+                            <td><textarea name="content" style="width:200px;height:80px;max-width: 200px;">这是一个多行输入框，输入您的个人描述</textarea></td>
+                        </tr>
+                        </tbody></table>
+                    <input class="btn" type="button" name="submit" value="确认提交">
+                </form>
+            </div>
+        </div>
+    </aside>
+</section>
+<footer>
+    版权所有
+</footer>
+
+
+</body></html>
